@@ -1,10 +1,10 @@
 import React from 'react';
 import './Erorr.css';
 import Navbar from '../Navbar/Navbar';
-
+import background from "../Dashboard/BG.png"
 const Chatbot = () => {
   return (
-    <div className='chatbot-bg'>
+    <div className='chatbot-bg' style={{ backgroundImage: `url(${background})` }}>
       <div className='chat-nav'>
         <Navbar />
       </div>
