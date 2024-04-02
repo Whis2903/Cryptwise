@@ -16,7 +16,7 @@
     width: auto;
 }
 .nav-element:hover{
-    background: linear-gradient(142.05deg, #1F8EBE -5.36%, #440495 29.46%, #440495 56.03%, #B102CD 81.92%);
+    background: linear-gradient(142.05deg, #62574a -5.36%, #62574a 29.46%, #62574a 56.03%, #62574a 81.92%);
     transition: 10s ease-in;
     cursor: pointer;
     
