@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState, useCallback } from "react";
 import './Split.css';
 import Navbar from '../Navbar/Navbar';
 import { SharedContext } from "../context/SharedContext";
-
+import background from "../Dashboard/BG.png"
 const Split = () => {
   const [walletAddress, setWalletAddress] = useState('');
   const [qrCode, setQRCode] = useState('');
@@ -45,7 +45,7 @@ const Split = () => {
 
   return (
     <>
-      <div className='split-body'>
+      <div className='split-body' style={{ backgroundImage: `url(${background})` }}>
         <div className='split-nav'>
           <Navbar />
         </div>
