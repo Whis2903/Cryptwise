@@ -12,7 +12,7 @@ const RightNav = () => {
     const getArticles = async () => {
       try {
         setLoading(true);
-        const response = await axios.get("https://newsapi.org/v2/everything?q=tesla&from=2024-04-01&sortBy=publishedAt&apiKey=c17b4752adad48f7bfc0ba18115044bb");
+        const response = await axios.get(`https://newsapi.org/v2/everything?q=tesla&from=2024-04-01&sortBy=publishedAt&apiKey=${process.env.REACT_APP_GOOGLE_API_KEY}`);
         setArticles(response.data.articles);
       } catch (error) {
         console.error("Error fetching news articles:", error);
