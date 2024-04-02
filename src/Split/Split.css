@@ -1,0 +1,63 @@
+.split-body{
+    background: #5C1991;
+    background: radial-gradient(at right center, #953E97, #010101);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-size: 2.5vh;
+}
+
+.connect-wallet-btn{
+    height: fit-content;
+}
+
+.split-nav{
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+.split-content{
+    background-color: #0101019d;
+    color: white;
+    justify-content: center;
+    height: fit-content;
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    width: 200vh;
+    margin-top: 10vh;
+    padding: 2vh;
+    border-radius: 3vh;
+}
+
+.amt-to-split{
+    padding: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    border-radius: 1vh;
+    border: none;
+}
+
+.amt-to-split:focus{
+    outline: none;
+}
+
+.people{
+    padding: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    border-radius: 1vh;
+    border: none;
+}
+.people:focus{
+    outline: none;
+}
+
+.QR-req{
+    padding: 1vh;
+    border-radius: 1vh;
+    border: none;
+}
+
+.error-message{
+    color: rgb(255, 126, 126);
+}

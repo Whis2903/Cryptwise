@@ -1,0 +1,142 @@
+.pro2{
+    transform: translate(-50%, -50%);
+    position: fixed;
+	z-index: 20000;
+    top: -26vh;
+    width: 100%;
+}
+
+.swmain1{
+    background: rgba(10, 4, 15, 1);
+    border-radius: 2.75vh;
+    text-align: center;
+    height: 75.7vh;
+    width: 55.5vw;
+    padding: 2vh;
+    padding-top: 8vh;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.setting-exit-btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+    padding-bottom: 1vh;
+}
+
+.setting-exit-btns img{
+    height: 2.5vh;
+}
+
+.swh1{
+    font-size: 4vh;
+}
+
+.tabs{
+    margin-bottom: 3vh;
+}
+
+.swn{
+    font-weight: 600;
+}
+
+.row1{
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 1vw;
+    align-items: center;
+}
+
+.settings-main{
+    box-shadow: 0px 4px 20px 0px rgba(153, 52, 231, 1);
+    border-radius: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.set-tab{
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    background-color:rgba(60, 60, 60, 1);
+    border-radius: 3vh;
+    width: 10vw;
+    align-items: center;
+    padding-left: 1.5vw;
+    font-size: 1.5vh;    
+}
+.set-value{
+    font-weight: 700;
+}
+.set-but{
+    margin-left: auto;
+    margin-right: 0vh;
+    background: linear-gradient(272.88deg, #9934E7 4.95%, #5C1991 93.62%);
+    padding: 1vh;
+    border-radius: 2vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+
+.leave-wallet{
+    background: rgba(10, 4, 15, 1);
+    box-shadow: 0px 4px 20px 0px rgba(153, 52, 231, 1);
+    border-radius: 3vh;
+    margin-top: 5vh;
+    width: fit-content;
+    padding: 1.5vh;
+}
+.leave-wallet:hover{
+    cursor: pointer;
+    background: linear-gradient(272.88deg, #7124ab 4.95%, #491371 93.62%);
+    box-shadow: 0px 4px 20px 0px rgba(104, 109, 224, 0.5);
+    transition: 1s ease-in;
+}
+.swbtn-btm{
+    margin-left: 42%;
+}
+
+.logo1,.logo2 {
+    margin-left: 2vh;
+    padding: 0.25vh;
+    border-radius: 1vh;
+    height: 4vh;
+}
+
+.logo1:hover,.logo2:hover{
+    background-color: rgba(255, 255, 255, 0.244);
+    cursor: pointer;
+}
+
+.hist-head{
+    text-align: left;
+    margin-left: 10vh;
+    font-size: 1.5vw;
+    padding-bottom: 2vh;
+}
+
+.hist-ele{
+    text-align: left;
+    margin-left: 10vh;
+    font-size: 1vw;
+    display: flex;
+}
+
+.hist-date{
+    margin-left: auto;
+    margin-right: 5vh;
+}
+
+.wallet-hist{
+    overflow-y: scroll;
+    height: 10vh;
+    width: 90%;
+}

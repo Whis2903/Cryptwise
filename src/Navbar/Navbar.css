@@ -1,0 +1,41 @@
+.navbar{
+    width: 200px;
+    padding: 2vh;
+    padding-top: 4vh;
+    padding-left: 3vh;
+    /* background-color: rgba(79, 52, 120, 0.205); */
+    height: 94%;
+}
+
+.nav-element{
+    display: flex;
+    padding: 1.25vh; 
+    align-items: center;
+    margin: 1vh;
+    border-radius: 16px;
+    width: auto;
+}
+.nav-element:hover{
+    background: linear-gradient(142.05deg, #1F8EBE -5.36%, #440495 29.46%, #440495 56.03%, #B102CD 81.92%);
+    transition: 10s ease-in;
+    cursor: pointer;
+    
+}
+.logoo{
+    height: 70px;
+}
+.nav-logo{
+    padding-right: 1.5vh;
+    color: white;
+    font-size: 28px;
+}
+
+.nav-topic{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.linkremove{
+    text-decoration: none;
+}

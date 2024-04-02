@@ -1,0 +1,165 @@
+.main{
+    background-color: #1c1c1cda;
+    margin-right: 2vh;
+    width: 880px;
+    color: aliceblue;
+    border-radius: 20px;
+    margin-bottom: 2.5vh;
+    margin-top: -140px;
+}
+
+.grey{
+    background-color: rgba(0, 0, 0, 0.386);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.assets{
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 2vh ;
+    align-items: center;
+}
+.ass1,.ass2{
+    display: flex;
+    align-items: center;
+    margin: 2vh;
+    padding: 1vh;
+}
+
+.ass1 img, .ass2 img{
+    background-color: #ffffff2b;
+    height: fit-content;
+    padding: 1vh;
+    border-radius: 16px;
+}
+.shared_wallet_create{
+    position: absolute;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 47vw;
+    background: rgb(18, 18, 18);
+    border-radius: 2vh;
+    color: white;
+    z-index:10000;
+    display: flex;
+    flex-direction: column;
+    height:75vh;
+}
+
+.shared_wallet_create input{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.shared_wallet_create input:focus{
+    outline: none;
+}
+
+.shared_wallet_create button{
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+#create{
+    background-color: rgba(0, 128, 0, 0.769);
+    border: none;
+}
+#create:hover{
+    background-color: rgb(40, 150, 40);
+}
+#cancel{
+    background-color: rgb(145, 40, 40);
+    border :none;
+}
+#cancel:hover{
+    background-color: red;
+}
+
+.money-text{
+    padding: 1vh;
+}
+.copy-button {
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 128, 0, 0.769);
+    border: none;
+    margin-left: 10px; /* Adjust margin as needed */
+}
+
+.copy-button:hover {
+    background-color: rgb(40, 150, 40);
+}
+
+.money-head{
+    font-size: 15px;
+}
+.money-value{
+    font-size: 25px;
+    width: auto;
+}
+
+.shared-head{
+    padding-left: 5vh;
+    font-size: 25px;
+}
+
+.shared-wallets{
+    /* background-color: rgba(255, 255, 255, 0.256); */
+    margin-top: 5vh;
+    margin-left: 5vh;
+    margin-right: 1vh ;
+    height: 59vh;
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.add-SW{
+    margin-left: auto;
+    margin-right: 3vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#create_wallet{
+    height: 6vh;
+    padding: 1.5vh;
+    width: 6vh;
+    border-radius: 3vh;
+    border: none;
+    background-color: rgb(0, 218, 65);
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    font-size: 3vh;
+}
+#create_wallet:hover{
+    cursor: pointer;
+    background-color: rgb(14, 123, 47);
+}
+
+.cc-create-sw{
+    font-size: 1.5vh;
+    color: grey;
+}
+
+.csw-head{
+    font-size: 4vh;
+    font-weight: 500;
+    margin-top: 12vh;
+}
+
+.row_wallet{
+    align-self: center;
+}

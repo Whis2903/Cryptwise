@@ -1,0 +1,115 @@
+.pro3{
+    position: fixed;
+	z-index: 20000;
+    top: -14.5vh;
+    left: 31vh;
+    width: 100%;
+    color: white;
+    font-size: 2vh;
+}
+
+.swmain1{
+    background: rgba(10, 4, 15, 1);
+    border-radius: 2.75vh;
+    text-align: center;
+    height: 75.7vh;
+    width: 55.5vw;
+    padding: 2vh;
+    padding-top: 8vh;
+    align-items: center;
+    justify-items: center;
+    overflow-y: scroll;
+}
+
+.setting-exit-btns img{
+    height: 2.5vh;
+}
+
+.swh5{
+    font-size: 4vh;
+    display: flex;
+    padding-bottom: 2vh;
+    padding-left: 2vh;
+}
+
+.tabs{
+    margin-bottom: 3vh;
+}
+
+.swn{
+    font-weight: 600;
+}
+
+.row1{
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 1vw;
+    align-items: center;
+}
+
+.settings-main{
+    box-shadow: 0px 4px 20px 0px rgba(153, 52, 231, 1);
+    border-radius: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.swbtn-btm{
+    margin-left: 42%;
+}
+
+.logo5{
+    margin-left: auto;
+    margin-right: 2vh;
+    padding: 0.25vh;
+    border-radius: 1vh;
+    height: 4vh;
+
+}
+.logo5:hover{
+    background-color: rgba(255, 255, 255, 0.244);
+    cursor: pointer;
+}
+
+.charity-header{
+    display: flex;
+    font-size: 3vh;
+    padding-bottom: 2vh;
+}
+
+.cha-wallid{
+    padding-left: 4vh;
+    width: 10vw;
+}
+.cha-wallname{
+    width: 35vw;
+}
+.cha-walldonate{
+    width: 10vw;
+}
+
+.search-section1{
+    margin-left: 20vw;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    background-color: #1c1c1cef ;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.search-input1{
+    width: 100%;
+    height: 10px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding-left: 6px;
+    font-size: 10px;
+}
+.search-input1:focus{
+    outline: none;
+}

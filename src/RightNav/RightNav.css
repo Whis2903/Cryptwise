@@ -1,0 +1,35 @@
+.rightnav{
+    width: 25vw;
+    /* background-color: aqua; */
+    color: white;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: -140px;
+    height: 1100px;
+}
+
+.box1{
+    background-color: #1c1c1cda;
+    border-radius: 20px;
+    height: 28%;
+    margin-right: 4h;
+    margin-bottom: 2vh;
+}
+.box2{
+    background-color: #1c1c1cda;
+    border-radius: 20px;
+    height: 69%;
+    margin-right: 4h;
+    margin-bottom: 2vh;
+}
+
+.title-right{
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    position: sticky;
+    text-align: center;
+}
+
+.box2{
+    overflow-y: scroll;
+}

@@ -1,0 +1,41 @@
+.nwi-whole{
+    text-decoration: none;
+}
+
+.news-box{
+    font-size: 16px;
+    background: black;
+    margin: 1vh;
+    padding: 1vh;
+    border-radius: 8px;
+}
+
+.nwcontent{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5vh;
+}
+
+.nwcontent a{
+    text-decoration: none;
+    color: white;
+}
+
+.news-img{
+    max-width: 10vh;
+    margin-right: 2vh;
+    border-radius: 2px;
+}
+
+.author{
+    color:rgba(136, 136, 136, 1);
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom:0.5vh;
+}
+.date{
+    color: rgba(136, 136, 136, 1);
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 1vh;
+}

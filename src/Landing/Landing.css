@@ -1,0 +1,67 @@
+.landing-back{
+    background: rgba(10, 4, 15, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 100vh;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.es-logo{
+    height: 8vw;
+    padding-top: 8%;
+}
+.ES-name{
+    font-size: 5vw;
+    font-weight: 700;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.desc-es{
+    margin-left: 30vw;
+    margin-right: 30vw;
+    font-size: 1.5vw;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(185, 185, 185);
+}
+
+.connect-wallet{
+    padding: 4vh;
+    margin-top: 2vh;
+}
+
+.land-button{
+    border: 1px solid rgb(52, 201, 231);
+    box-shadow: 0px 4px 4px 0px rgba(52, 201, 231, 1);
+    width: fit-content;
+    text-align: center;
+    padding: 2vh;
+    border-radius: 2vh;
+    font-size: 2.5vw;
+}
+
+.land-button:hover{
+    cursor: pointer;
+    background: linear-gradient(272.88deg, rgb(52, 201, 231) 4.95%, rgb(52, 201, 231) 93.62%);
+    box-shadow: 0px 4px 20px 0px rgba(104, 109, 224, 0.5);
+}
+
+@media (max-width: 556px) {
+    .es-logo{
+        height: 15vw;
+        padding-top: 35%;
+    }
+    .ES-name{
+        font-size: 10vw;
+    }
+    .desc-es{
+        font-size: 3vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+    } 
+    .land-button{
+        font-size: 3.5vw;
+    }   
+}

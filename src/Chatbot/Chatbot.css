@@ -1,0 +1,135 @@
+.chatbot-bg{
+    background: #5C1991;
+    background: radial-gradient(at right center, #953E97, #010101);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.chat-nav{
+    background-color: #2020206f;
+    width: fit-content;
+    height: 100vh;
+}
+
+.user-request-field {
+    position: fixed;
+    bottom: 2vh;
+    width: 82%;
+  }
+
+.user-input-chatbot{
+    width: 58vw;
+    padding: 1.5%;
+    border-radius: 1.5vh;
+    margin-left: 2vh;
+    border: none;
+    background-color: #81818180;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+}
+.clear-btn{
+    padding: 1%;
+    width: 19vh;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.user-input-chatbot:focus{
+    outline: none;
+}
+
+.conversation{
+    color: white;
+    bottom: 8vh;
+    top: 2vh;
+    width: 80vw;
+    position: fixed;
+    overflow-y: scroll;
+    height: 90vh;
+    padding: 2vh;
+}
+
+.conversation-mapping{
+    top: auto;
+    bottom: 8vh;
+}
+
+.user-message{
+    text-align: right;
+    background-color: rgba(240, 248, 255, 0.694);
+    width: max-content;
+    color: #010101;
+    margin-right: 0vw;
+    margin-left: auto;
+    padding: 1vh;
+    border-radius: 2vh;
+    max-width: 75vw;
+}
+
+.ai-response{
+    background-color: #0101017e;
+    width: fit-content;
+    padding: 1vh;
+    border-radius: 2vh;
+    margin-bottom: 2vh;
+    margin-right: 6vh;
+}
+
+.conversation-mapping{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.snd-btn{
+    padding: 1%;
+    width: 17vh;
+    border-radius: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.loading-chat{
+    position: fixed;
+    bottom: 10vh ;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.welcome-text{
+    top: 20vh;
+    left: 40vh;
+    position: fixed;
+}
+.main-welcome-chat{
+    font-size: 10vh;
+    color: white;
+    animation: fade-in 3s forwards;
+}
+.msg-chat{
+    font-size: 3vh;
+    animation: fade-in 3s forwards;
+}
+.msg-chat1{
+    font-size: 2.5vh;
+    animation: fade-in 3s forwards;
+    font-weight: bold;
+}
+.gemini-logo{
+    height: 20px;
+}
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

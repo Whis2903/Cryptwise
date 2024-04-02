@@ -1,0 +1,35 @@
+chatbot-bg{
+    background: #5C1991;
+    background: radial-gradient(at right center, #953E97, #010101);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+  
+  .center-content {
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 1%;
+  }
+  
+  .text-h {
+    color: white;
+    font-size: 10rem; /* Adjust font size as needed */
+    animation: fade-in 3s forwards;
+    margin-top: 30%;
+  }
+  
+  .text-p {
+    color: white;
+    font-size: 2rem;
+    margin-top: -90px;
+    animation: fade-in 3s forwards;
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

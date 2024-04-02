@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Urbanist', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #2d2d302c;
+  border-radius: 2vh;
+}
+
+::-webkit-scrollbar
+{
+	width: 9px;
+	background-color: #0000006f;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 3px;
+  background: linear-gradient(272.88deg, #6f25a7 4.95%, #3e1061 93.62%);
+    box-shadow: 0px 4px 20px 0px rgba(104, 109, 224, 0.5);
+}

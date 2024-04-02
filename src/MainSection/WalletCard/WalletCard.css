@@ -1,0 +1,127 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.678); /* Adjust the alpha channel for transparency */
+    z-index: 100; /* Set a value higher than your popups */
+  }
+
+.wallet-card{
+    background: rgba(0, 0, 0, 1);
+    width: 220px;
+    height: 140px;
+    padding: 2vh;
+    padding-top: 1.5vh;
+    border-radius: 20px;
+    margin-right: 2vh;
+    margin-top: 2.5vh;
+}
+
+.wallet-card-top{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 0.5vh;
+}
+
+.open-logo{
+    margin-right: o;
+    margin-left: auto;
+}
+
+.sw-info{
+    font-size: 15px;
+    padding-bottom: 0.5vh;
+}
+.card-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1vh;
+    margin-top: 1vh;
+    font-size: 20px;
+}
+
+.borrow-btn{
+    background: linear-gradient(272.88deg, #9934E7 4.95%, #5C1991 93.62%);
+    box-shadow: 0px 4px 20px 0px rgba(104, 109, 224, 0.5);
+}
+.borrow-btn:hover{
+    background: linear-gradient(0deg, #0A040F, #0A040F),
+linear-gradient(0deg, #9934E7, #9934E7);
+    box-shadow: 0px 4px 20px 0px rgba(153, 52, 231, 1);
+    cursor: pointer;
+    transition: 0.15s ease-in;
+}
+
+.lend-btn{
+    background: linear-gradient(0deg, #0A040F, #0A040F),
+linear-gradient(0deg, #9934E7, #9934E7);
+    /* border: 1px solid rgba(153, 52, 231, 1); */
+    box-shadow: 0px 4px 20px 0px rgba(153, 52, 231, 1);
+}
+.lend-btn:hover{
+    background: linear-gradient(272.88deg, #9934E7 4.95%, #5C1991 93.62%);
+    box-shadow: 0px 4px 20px 0px rgba(104, 109, 224, 0.5);
+    cursor: pointer;
+    transition: 0.15s ease-in;
+}
+
+.borrow-btn,.lend-btn{
+    padding: 0.9vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin: 1vh;
+    border-radius: 10px;
+}
+
+.o-logo{
+    padding-top: 0.5vh;
+}
+.o-logo:hover{
+    cursor: pointer;
+    background-color: #ffffff33;
+    border-radius: 6px;
+    transition: 0.05s ease-in;
+}
+
+.pop-up{
+    z-index: 1000000;
+}
+
+.borrow_info, .lend_info{
+    top: 20vh;
+    height:max-content;
+    
+}
+
+.lend-confirm{
+    background-color: green;
+    border: none;
+    width: 20vw;
+    margin-right: 2vh;
+}
+#cancel-box{
+    background-color: red;
+    border: none;
+    width: 20vw;
+}
+#cancel-box:hover{
+    background-color: rgb(160, 1, 1);
+}
+
+.lend-confirm:hover{
+    background-color: rgb(0, 164, 0);
+    border: none;
+}
+
+.row-btns-br-len{
+    align-self: center;
+    padding: 2vh;
+}
+
+.shared_wallet_create input{
+    margin-top: 2vh;
+}
