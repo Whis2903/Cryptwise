@@ -7,7 +7,7 @@ import dashboardLogo from "./dasboard.svg";
 import chatbotLogo from "./Chatbot.svg";
 import depositsLogo from "./deposits.svg";
 import profileLogo from "./user.svg";
-import Charity from "../Charity/Charity";
+import SettingsSW from "../Charity/Charity";
 import { IoIosGift, IoMdChatbubbles, IoMdDesktop, IoMdHome, IoMdPerson, IoMdRocket } from "react-icons/io";
 
 const Navbar = () => {
@@ -41,12 +41,12 @@ const Navbar = () => {
         </div>
       </Link>
 
-      <div className="linkremove" onClick={handleOpenCLogoClick}>
+      <Link to="/charity" className="linkremove" onClick={handleOpenCLogoClick}>
         <div className="nav-element">
         <IoIosGift className="nav-logo"/>
           <div className="nav-topic">Charity</div>
         </div>
-      </div>
+      </Link>
 
       <Link to="/split" className="linkremove">
         <div className="nav-element">
@@ -69,7 +69,7 @@ const Navbar = () => {
         </div>
       </Link>
 
-      {openCCard && <Charity open={openCCard} onClose={CardCClose} />}
+      {openCCard && <SettingsSW open={openCCard} onClose={CardCClose} />}
     </div>
   );
 };

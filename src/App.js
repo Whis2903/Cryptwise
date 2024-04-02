@@ -6,6 +6,7 @@ import Landing from "./Landing/Landing";
 import Chatbot from "./Chatbot/Chatbot";
 import Split from "./Split/Split";
 import Errorr from "./Erorr/Erorr";
+import SettingsSW from "./Charity/Charity";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/" element={<Landing />} />
+          <Route path="/charity" element={<SettingsSW/>} />
           <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/split" element={<Split />} />
           <Route path="*" element={<Errorr />} />
