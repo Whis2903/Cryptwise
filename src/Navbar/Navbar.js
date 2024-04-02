@@ -3,10 +3,15 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 import CryptWise from "./Logo.png";
+// eslint-disable-next-line
 import dashboardLogo from "./dasboard.svg";
+// eslint-disable-next-line
 import chatbotLogo from "./Chatbot.svg";
+// eslint-disable-next-line
 import depositsLogo from "./deposits.svg";
+// eslint-disable-next-line
 import profileLogo from "./user.svg";
+// eslint-disable-next-line
 import SettingsSW from "../Charity/Charity";
 import { IoIosGift, IoMdChatbubbles, IoMdDesktop, IoMdHome, IoMdPerson, IoMdRocket } from "react-icons/io";
 
